@@ -1,0 +1,12 @@
+You are a career branding expert. Rewrite the following CV bullet points for a SaaS Business Development Manager role.
+Goals:
+- Use a positive, proactive tone.
+- Emphasize achievements, impact, and measurable outcomes.
+- Include relevant ATS keywords: SaaS, ARR, MRR, pipeline, upsell, cross-sell, retention, stakeholder, CRM, Salesforce, negotiation.
+- Keep each bullet point short (1–2 sentences).
+- Output the result as a JSON array of strings (each an improved bullet).
+
+Input bullet points:
+1) Już w pierwszym kwartale osiągnęłam 170% celu sprzedażowego ISG.
+2) Obsługiwałam portfel klientów o wartości ~7 mln USD kwartalnie, rozwijając pipeline i upsell.
+3) Prowadziłam automatyzację procesów sprzedażowych i współpracowałam z zespołami technicznymi.

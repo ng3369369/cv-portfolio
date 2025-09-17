@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Natalia Grzegorzek</title>
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@2/css/pico.min.css">
+  <style>
+    :root { --accent:#007b83; }
+    body { font-family: Inter, sans-serif; line-height:1.6; }
+    header { text-align:center; margin-top:2rem; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:1rem; margin-top:1.2rem; }
+    .card img { width:100%; height:auto; display:block; border-radius:8px; }
+    .card { background:#fff; border-radius:8px; padding:.5rem; border:1px solid #eef8f7; }
+    .back { margin-top:1rem; text-align:center; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Portfolio artystyczne</h1>
+      <p>Krótki pokaz prac — zamień poniższe obrazy na własne pliki (instrukcja w README).</p>
+      <nav><a href="../index.html">← Powrót do CV</a></nav>
+    </header>
+
+    <section class="grid">
+      <div class="card"><a href="https://picsum.photos/seed/a/1200/900" target="_blank"><img src="https://picsum.photos/seed/a/800/600" alt="Praca 1"></a></div>
+      <div class="card"><a href="https://picsum.photos/seed/b/1200/900" target="_blank"><img src="https://picsum.photos/seed/b/800/600" alt="Praca 2"></a></div>
+      <div class="card"><a href="https://picsum.photos/seed/c/1200/900" target="_blank"><img src="https://picsum.photos/seed/c/800/600" alt="Praca 3"></a></div>
+      <div class="card"><a href="https://picsum.photos/seed/d/1200/900" target="_blank"><img src="https://picsum.photos/seed/d/800/600" alt="Praca 4"></a></div>
+      <div class="card"><a href="https://picsum.photos/seed/e/1200/900" target="_blank"><img src="https://picsum.photos/seed/e/800/600" alt="Praca 5"></a></div>
+      <div class="card"><a href="https://picsum.photos/seed/f/1200/900" target="_blank"><img src="https://picsum.photos/seed/f/800/600" alt="Praca 6"></a></div>
+    </section>
+
+    <div class="back">
+      <a href="../index.html">Powrót do CV</a>
+    </div>
+  </main>
+</body>
+</html>
